@@ -2,7 +2,7 @@ name: scheduled-job
 
 on:
   schedule:
-    - cron: "48 6 * * *"
+    - cron: "50 12 * * *"
   workflow_dispatch:       # Allows manual trigger
 
 jobs:
