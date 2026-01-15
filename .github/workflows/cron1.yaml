@@ -3,7 +3,7 @@ name: scheduled-job
 on:
   workflow_dispatch: 
   schedule:
-    - cron: "10 13 * * *"
+    - cron: "25 13 * * *"
 
 
 jobs:
